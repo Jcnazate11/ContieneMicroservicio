@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS contiene (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  idProducto INT NOT NULL,
+  idPedido INT NOT NULL
+);
